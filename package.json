@@ -1,0 +1,36 @@
+{
+  "name": "@vivid-planet/redux-paging",
+  "version": "1.0.0",
+  "description": "A higher order component decorator for paging using Redux and React",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vivid-planet/redux-paging.git"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "prop-types": "^15.6.0",
+    "react-redux": "^5.0.6",
+    "redux-act": "^1.5.0",
+    "immutable": "^3.8.2"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-redux",
+    "redux",
+    "redux-paging",
+    "paging",
+    "flux",
+    "immutable"
+  ],
+  "author": "Alexander Kaufmann <ak@vivid-planet.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/vivid-planet/redux-paging/issues"
+  },
+  "homepage": "https://github.com/vivid-planet/redux-paging#readme"
+}
