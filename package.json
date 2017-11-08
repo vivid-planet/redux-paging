@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/vivid-planet/redux-paging.git"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^15.6.1",
     "prop-types": "^15.6.0",
     "react-redux": "^5.0.6",
