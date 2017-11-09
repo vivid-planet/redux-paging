@@ -7,7 +7,7 @@
 [React](https://github.com/facebook/react) to use [Redux](https://github.com/rackt/redux) to store all of its state.
 
 ## Installation
-```npm install --save redux-paging```
+```npm install --save @vivid-planet/redux-paging```
 
 ## Getting Started
 
