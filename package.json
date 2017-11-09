@@ -4,7 +4,7 @@
   "description": "A higher order component decorator for paging using Redux and React",
   "main": "./lib/index.js",
   "scripts": {
-    "scss": "node-sass --output-style expanded --recursive scss/default.scss > dist/redux-paging.css",
+    "scss": "node-sass --output-style expanded --recursive scss/default.scss dist/redux-paging.css",
     "build": "babel src --presets=es2015,react --out-dir lib",
     "clean": "rm -rf lib && rm -rf dist",
     "prepublish": "npm run clean && npm run build && npm run scss"
