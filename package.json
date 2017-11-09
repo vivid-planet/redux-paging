@@ -4,9 +4,10 @@
   "description": "A higher order component decorator for paging using Redux and React",
   "main": "./lib/index.js",
   "scripts": {
+    "scss": "node-sass --output-style expanded --recursive scss/default.scss > dist/redux-paging.css",
     "build": "babel src --presets=es2015,react --out-dir lib",
-    "clean": "rm -rf lib",
-    "prepublish": "npm run clean && npm run build"
+    "clean": "rm -rf lib && rm -rf dist",
+    "prepublish": "npm run clean && npm run build && npm run scss"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.6.0"
   },
   "keywords": [
     "react",
